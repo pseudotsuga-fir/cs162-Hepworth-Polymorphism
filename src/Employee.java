@@ -8,7 +8,7 @@ public class Employee {
     private double baseSalary;
     private int yearsOfExperience;
     private int yearsAtCompany;
-    protected final static int YEARS_AT_COMPANY_MAX_VACATION_THRESHOLD  = 2;
+    protected final static int YEARS_AT_COMPANY_MAX_VACATION_THRESHOLD  = 3;
     protected final static int YEARS_AT_COMPANY_MIN_VACATION_THRESHOLD  = 1;
 
     /**
@@ -83,4 +83,5 @@ public class Employee {
     public String motto(){
         return "We value our employees";
     }
+
 }
